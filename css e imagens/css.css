@@ -1,0 +1,251 @@
+body {
+ display: flex;
+ justify-content: center;  
+}
+
+
+
+.caixa{
+background-color: rgb(255, 255, 255);
+min-width: 1520px;
+height: 960px;
+display: flex;
+justify-content: center;
+border-radius: 50px;
+background: url(./PraiaPixel.jfif) no-repeat top center/cover;
+
+
+
+
+}
+
+.escrever {
+ display: flex;
+ width: 756px;
+ height: 130px;  
+ border-radius: 10px;
+ margin-top: 30px;
+ position: absolute;
+ margin-left: 19%;
+ background-color: #3fa2a3;
+ opacity: 0.90;
+ box-shadow: 5px 10px 7px rgb(42, 41, 41);
+ border: 1px solid black;
+ align-items: center;
+ justify-content: center;
+ 
+}
+button {
+    display: flex;
+    border-radius: 0px 10px 10px 0px;
+    width: 110px;
+    height: 80px;
+    margin: 10px;
+    display: flex;
+    margin: 17px auto;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;    
+    color: white;
+    background-color: rgb(34, 119, 34);
+}
+button:hover{
+    
+    background-color: rgb(15, 114, 15);
+}
+
+input[type=text] {
+   
+    
+    font-size: 20px;
+    border: none;
+    outline: none;
+    width: 500px;
+    
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    
+   
+    
+  
+}
+#tarefa {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px 0px 0px 10px;
+    width: 603px;
+    height: 80px;
+    margin: 10px;
+    display: flex;
+    margin: 17px auto;
+    font: 500px;
+    
+    
+    
+}
+
+img {
+    margin: 10px;
+    clip-path: circle(50%);
+    width: 250px;
+    height: 250px;   
+    top: 10px;
+    left: 8px;
+   
+}
+
+.imagem {   
+   position: absolute;
+   margin-right: 60%;
+   display: flex;
+    
+}
+
+#tarefas {
+    display: flex;
+    height: 556px;
+    width: 716px; 
+    border-radius: 30px;
+    position: absolute; 
+    margin: 20%;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    
+    background-color: #0d678e;
+    opacity: 0.96;
+    box-shadow: 5px 5px 5px black;
+    
+    
+}
+
+#tarefas-esquerda {
+
+    width: 300px;
+    height: 500px;
+    background-color: #217981;
+    position: absolute;
+    margin-top: 22%;
+    margin-right: 50%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0.95;
+    border: #1b4b50 solid 3px;
+}
+
+
+   
+
+#tarefas-esquerdas .paragrafo {
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 40px;
+    white-space: nowrap;       /* Não quebra linha */
+    overflow: hidden;          /* Esconde o texto que ultrapassa o limite */
+    text-overflow: ellipsis;   /* Adiciona "..." no final do texto longo */
+    width: 100%;               /* Garante que a largura do parágrafo seja limitada ao contêiner */
+    box-sizing: border-box;    /* Inclui padding e border na largura total */
+    
+}
+
+.apagar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 40px;
+    background-color: #FDA75C;
+     margin-right: 26%;
+}
+
+.apagar:hover {
+    background-color: #9c5a21;
+   
+}
+
+#Lista  {
+    background-color: #1d5b5bce;
+    width: 650px;
+    height: 500px;
+    overflow-y: auto;
+    border-radius: 10px;
+    box-shadow: black 5px 5px 5px;
+    border: black solid 3px;
+    
+}
+
+h2 {
+    position: absolute;
+    margin-right: 50%;
+    margin-top: 19%;
+    font-size: 40px;
+    color: rgb(5, 18, 14) ;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+h3 {
+    position: absolute;
+    justify-content: center;
+    margin-left: 20%;
+    margin-top: 17%;
+    color: #1b4b50;
+    font-family: "Arial", Helvetica, sans-serif;
+    font-size: 50px;
+    
+}
+
+.paragrafo {
+    margin: 10px;
+    padding-right: 10px;
+    padding: 0px 40px 10px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+ 
+    
+}
+
+.divs {
+    display: flex;
+    align-items: center;
+    margin: top;
+    margin: 10px 20px;
+    background-color: #3fa2a3;
+    border-radius: 5px;
+    width: 90%;
+    border: black solid;
+    stop-opacity: 1;
+    
+}
+
+
+.botaozinho {
+    padding: 5px 10px;
+    background-color: #0d678e;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;  
+    margin-right: 10px;
+    
+}
+.concluir {
+    border-radius: 10px;
+}
+
+
