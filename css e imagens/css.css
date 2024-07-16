@@ -130,14 +130,12 @@ img {
 #tarefas-esquerda {
 
     width: 300px;
-    height: 500px;
     background-color: #217981;
     position: absolute;
     margin-top: 22%;
     margin-right: 50%;
     border-radius: 10px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     opacity: 0.95;
     border: #1b4b50 solid 3px;
@@ -148,9 +146,13 @@ img {
 
 #tarefas-esquerdas .paragrafo {
     
+
     display: flex;
     justify-content: center;
     margin-top: 20px;
+
+    margin-top: 0px;
+
     padding: 5px;
     font-size: 40px;
     white-space: nowrap;       /* Não quebra linha */
@@ -159,22 +161,6 @@ img {
     width: 100%;               /* Garante que a largura do parágrafo seja limitada ao contêiner */
     box-sizing: border-box;    /* Inclui padding e border na largura total */
     
-}
-
-.apagar {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: rgb(255, 255, 255);
-    border-radius: 20px;
-    height: 40px;
-    background-color: #FDA75C;
-     margin-right: 26%;
-}
-
-.apagar:hover {
-    background-color: #9c5a21;
-   
 }
 
 #Lista  {
@@ -209,7 +195,7 @@ h3 {
 }
 
 .paragrafo {
-    margin: 10px;
+    margin: 10;
     padding-right: 10px;
     padding: 0px 40px 10px;
     font-size: 40px;
@@ -223,7 +209,8 @@ h3 {
 .divs {
     display: flex;
     align-items: center;
-    margin: top;
+    margin: top
+    ;
     margin: 10px 20px;
     background-color: #3fa2a3;
     border-radius: 5px;
